@@ -78,3 +78,4 @@ print(type(e))          #it is string
 print(type(f))          #it is none type
 print(type(g))          # it is string
 
+
