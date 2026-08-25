@@ -169,3 +169,84 @@ print(word * 3)
 
 # Multiplying a string by a float gives an error
 
+#Task 18
+value=None
+#print("Addition: ",None+2)
+#print("Subtraction: ",None-2)
+#print("Multiplication: ",None*2)
+#print("Division: ",None/2)
+#print("Floor Division: ",None//2)
+#print("Modulus: ",None%2)
+#print("Exponentiation: ",None**2)
+
+#Task 19
+#print(1/0)
+#print("Python"/0)
+#print(None/0)
+
+#Task 20
+no_1=4
+no_2=3
+print("Addition: ",no_1+no_2) #Addition
+print("Subtraction: ",no_1-no_2) #Subtraction
+print("Multiplication: ",no_1*no_2) #Multiplication
+print("Division: ",no_1/no_2) #Division
+print("Floor Division: ",no_1//no_2) #Fllor Division
+print("Modulus: ",no_1%no_2) #Modulus
+print("Exponentiation: ",no_1**no_2) #Exponentiation
+
+#Task 21
+a = 10
+b = -3
+c = 2.5
+
+print(a*b/c)
+print((a*b)/c)
+print(a+b*c**b)
+print((a+b)*c**b)
+print(a-c/b//a**c)
+print(c-a*b**a)
+print(b%a+c*b)
+print(a+b//c**a%b)
+print((a+b)//c**(a%b))
+print((a-c)*b**a(b+a))#Task 18
+value=None
+#print("Addition: ",None+2)
+#print("Subtraction: ",None-2)
+#print("Multiplication: ",None*2)
+#print("Division: ",None/2)
+#print("Floor Division: ",None//2)
+#print("Modulus: ",None%2)
+#print("Exponentiation: ",None**2)
+
+#Task 19
+#print(1/0)
+#print("Python"/0)
+#print(None/0)
+
+#Task 20
+no_1=4
+no_2=3
+print("Addition: ",no_1+no_2) #Addition
+print("Subtraction: ",no_1-no_2) #Subtraction
+print("Multiplication: ",no_1*no_2) #Multiplication
+print("Division: ",no_1/no_2) #Division
+print("Floor Division: ",no_1//no_2) #Fllor Division
+print("Modulus: ",no_1%no_2) #Modulus
+print("Exponentiation: ",no_1**no_2) #Exponentiation
+
+#Task 21
+a = 10
+b = -3
+c = 2.5
+
+print(a*b/c)
+print((a*b)/c)
+print(a+b*c**b)
+print((a+b)*c**b)
+print(a-c/b//a**c)
+print(c-a*b**a)
+print(b%a+c*b)
+print(a+b//c**a%b)
+print((a+b)//c**(a%b))
+print((a-c)*b**a(b+a))
