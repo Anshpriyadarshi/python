@@ -166,3 +166,202 @@ print(a.count("n"))
 print(a.count(b))
 
 # 24 starting and ends
+
+# startswith 
+name="student_notes.pdf"
+b=name.startswith("student")
+print(b)
+#  Endswith
+
+name="Student_notes.pdf"
+b=name.endswith(".pdf")
+print(b)
+
+name="Student_notes.pdf"
+b=name.endswith(".txt")
+print(b)
+
+# task 24
+filename = "student_notes.pdf"
+print(filename.startswith("student"))
+print(filename.endswith(".pdf"))
+print(filename.endswith(".txt"))
+
+# task 25
+text = "I am learning Java"
+new_text = text.replace("Java","python")
+print(new_text)
+
+# task 26
+text = "apple apple apple"
+print(text.replace("apple","mango"))
+
+# task 27
+text = "apple apple apple"
+print(text.replace("apple","mango", 1))
+
+# task 28
+text = "Python"
+print(text.upper())
+
+# task 29
+text = "   Python Programming   "
+print(text.lstrip())
+print(text.strip())
+print(text.rstrip())
+
+# task 30
+text = "Python is easy to learn"
+words = text.split()
+print(words)
+
+# task 31
+text = "Python is easy to learn"
+
+words = text.split()
+
+print(words)
+
+
+# Task 32 — Split with Separator
+
+text = "apple,banana,mango,orange"
+
+fruits = text.split(",")
+
+print(fruits)
+
+
+# Task 33 — Join
+
+words = ["Python", "is", "easy"]
+
+sentence = " ".join(words)
+
+print(sentence)
+
+
+# Task 34 — Join with Different Separators
+
+words = ["Python", "is", "easy"]
+
+print("-".join(words))
+print("/".join(words))
+
+
+# Task 35 — F-String
+
+name = "ansh"
+age = 19
+city = "Kalol"
+
+sentence = f"My name is {name}, I am {age} years old, and I live in {city}."
+
+print(sentence)
+
+
+# Task 36 — Arithmetic Inside F-String
+
+a = 10
+b = 20
+
+print(f"The sum is {a + b}")
+
+
+# Task 37 — Error Identification
+
+# A — IndexError
+text = "Python"
+
+try:
+    print(text[20])
+except IndexError:
+    print("IndexError: String index is out of range.")
+
+
+# B — TypeError
+text = "Python"
+
+try:
+    text[0] = "J"
+except TypeError:
+    print("TypeError: Strings cannot be changed directly.")
+
+
+# C — TypeError
+age = 20
+
+try:
+    print("Age: " + age)
+except TypeError:
+    print("TypeError: Cannot concatenate string and integer.")
+
+
+# D — ValueError
+text = "Python"
+
+try:
+    print(text.index("Java"))
+except ValueError:
+    print("ValueError: Substring not found.")
+
+
+# Task 38 — Name Processor
+
+full_name = input("Enter your full name: ")
+
+cleaned_name = full_name.strip()
+
+print("Original input:", full_name)
+print("Cleaned name:", cleaned_name)
+print("Uppercase:", cleaned_name.upper())
+print("Lowercase:", cleaned_name.lower())
+print("Title case:", cleaned_name.title())
+print("Length:", len(cleaned_name))
+print("First character:", cleaned_name[0])
+print("Last character:", cleaned_name[-1])
+print("Contains 'a':", "a" in cleaned_name.lower())
+
+
+# Task 39 — Sentence Analyzer
+
+sentence = input("Enter a sentence: ")
+chosen_character = input("Enter a character to count: ")
+
+print("Original sentence:", sentence)
+print("Number of characters:", len(sentence))
+print("Number of words:", len(sentence.split()))
+print("First character:", sentence[0])
+print("Last character:", sentence[-1])
+print("Uppercase:", sentence.upper())
+print("Lowercase:", sentence.lower())
+print("Title case:", sentence.title())
+print("Contains 'Python':", "Python" in sentence)
+print("Character count:", sentence.count(chosen_character))
+
+
+# Task 40 — Student Information
+
+first_name = input("Enter first name: ").strip()
+last_name = input("Enter last name: ").strip()
+city = input("Enter city: ").strip()
+course = input("Enter course: ").strip()
+age = input("Enter age: ").strip()
+
+full_name = first_name + " " + last_name
+
+print("Full name:", full_name.title())
+print("Uppercase:", full_name.upper())
+print("Lowercase:", full_name.lower())
+print("Length:", len(full_name))
+print("First character:", full_name[0])
+print("Last character:", full_name[-1])
+print("City:", city)
+print("Course:", course)
+print(f"Age: {age}")
+print("Course contains Python:", "Python" in course)
+
+updated_course = course.replace("Java", "Python", 1)
+print("Updated course:", updated_course)
+
+print("Number of words in course:", len(course.split()))
