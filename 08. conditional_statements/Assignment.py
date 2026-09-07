@@ -103,11 +103,11 @@ elif num==5:
 
 #question 14
 num=int(input("Enter the number:-"))
-if num==80:
+if num>=80:
     print("Excellent")
-elif num==60:
+elif num>=60:
     print("good")
-elif num==40:
+elif num>=40:
     print("pass")
 else :
     print("fail")
