@@ -92,13 +92,13 @@ if num==0:
 num=int(input("Enter the number:-"))
 if num==1:
     print("monday")
-if num==2:
+elif num==2:
     print("Tuesday")
-if num==3:
+elif num==3:
     print("wednesday")
-if num==4:
+elif num==4:
     print("thursday")
-if num==5:
+elif num==5:
     print("friday")
 
 #question 14
