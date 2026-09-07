@@ -105,15 +105,15 @@ if num==5:
 num=int(input("Enter the number:-"))
 if num==80:
     print("Excellent")
-if num==60:
+elif num==60:
     print("good")
-if num==40:
+elif num==40:
     print("pass")
-if num<40:
+else :
     print("fail")
 
 #question 15
-num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))                 
 
 if num == 1:
     print("1")
