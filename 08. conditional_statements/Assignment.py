@@ -202,7 +202,7 @@ if num1>10 and num2>10:
 else :
     print("num1 and num2 is not > 10")
 
-question 25
+#question 25
 num=int(input("Enter the number:~"))
 
 
