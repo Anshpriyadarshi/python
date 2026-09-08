@@ -123,3 +123,86 @@ elif num == 3:
     print("3")
 else:
     print("Other")
+
+#question 16
+age=int(input("Enter the age:-"))
+if age>=18:
+    if age<=60:
+        print("okok")
+else :
+    print("get lost")
+
+#question 17
+marks=int(input("Enter marks:-"))
+if marks>=40:
+    if marks<=75:
+        print("good")
+    else :
+        print("pass")
+else :
+    print("fail")
+
+#question 18
+num=int(input("Enter the number:-"))
+if num>0:
+    if num<100:
+        print("the number is positive and greater than 100")
+    else :
+        print("The number is positive nut not greater than 100")
+else :
+    print("The number is not positive")
+
+#question 19
+age=int(input("Enter the age:-"))
+if age>=18:
+    if age<=60:
+        print("you are between the age ")
+else :
+    print("bye bye")
+
+#question 20
+num=int(input("Enter the number:-"))
+if num!=0:
+    if num>0:
+        print("positive")
+    else :
+        print("negative")
+else :
+    print("bye bye")
+
+#question 21
+age=int(input("Enter age:~"))
+marks=int(input("Enter marks:~"))
+if age>=18:
+    if marks>=40:
+        print("you are eligible")
+else :
+    print("not eligible")
+
+#question 22
+num=int(input("Enter num:~"))
+if num<10:
+    print("special")
+else :
+    print("not special")
+
+#question 23
+age=int(input("Enter the age:-"))
+has_id=True
+if age>=18 and has_id==True:
+    print("Allowed")
+else :
+    print("not Allowed")
+
+#question 24
+num1=int(input("Enter num1:~"))
+num2=int(input("Enter num2:~"))
+if num1>10 and num2>10:
+    print("Both are greater than 10")
+else :
+    print("num1 and num2 is not > 10")
+
+question 25
+num=int(input("Enter the number:~"))
+
+
