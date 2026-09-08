@@ -45,50 +45,50 @@ print(first)
 print(middle)
 print(last)    
 
-# 11. Convert string to integer
+# Question 11
 a = "25"
 a = int(a)
 print("Q11:", a)
 
-# 12. Convert string to float
+# Question 12
 a = "25.5"
 a = float(a)
 print("Q12:", a)
 
-# 13. Convert integer to string
+# Question 13
 a = 100
 a = str(a)
 print("Q13:", a)
 
-# 14. Take integer and print its type
+# Question 14
 a = int(input("Q14 - Enter an integer: "))
 print(type(a))
 
-# 15. Take float and print its type
+# Question 15
 a = float(input("Q15 - Enter a floating-point number: "))
 print(type(a))
 
-# 16. Input returns strings
+# Question 16
 a = input("Q16 - Enter first value: ")
 b = input("Q16 - Enter second value: ")
 print("String concatenation:", a + b)
 
-# 17. Numeric addition
+# Question 17
 a = int(input("Q17 - Enter first number: "))
 b = int(input("Q17 - Enter second number: "))
 print("Numeric addition:", a + b)
 
-# 18. f-string with name and age
+# Question 18
 name = "Rahul"
 age = 20
 print(f"Q18: My name is {name} and I am {age} years old.")
 
-# 19. f-string with sum
+# Question 19
 a = 10
 b = 20
 print(f"Q19: The sum is {a + b}")
 
-# 20. User name and age
+# Question 20
 name = input("Q20 - Enter your name: ")
 age = int(input("Q20 - Enter your age: "))
 print(f"My name is {name} and I am {age} years old.")
