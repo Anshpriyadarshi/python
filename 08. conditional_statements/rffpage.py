@@ -50,18 +50,20 @@
 # else :
 #     print("fail")
 
-#calculator
-operation=int(input("Enter the number:-"))
-num1=int(input("Enter num 1:-"))
-num2=int(input("Enter num 2:-"))
-if operation==1:
-    print(f"addition:-{num1 + num2}")
-elif operation==2:                                              # f = format or formatted string literal
-    print(f"Subtraction:-{num1 - num2}")
-elif operation==3:                                              # boot force - normal code 
-    print(f"multiplication:-{num1 * num2}")                    
-elif operation==4:                                              #optimisation - which require less space and functioning fast
-    print(f"division:-{num1 / num2}")
-else :
-    print("invalid")
+# #calculator
+# operation=int(input("Enter the number:-"))
+# num1=int(input("Enter num 1:-"))
+# num2=int(input("Enter num 2:-"))
+# if operation==1:
+#     print(f"addition:-{num1 + num2}")
+# elif operation==2:                                              # f = format or formatted string literal
+#     print(f"Subtraction:-{num1 - num2}")
+# elif operation==3:                                              # boot force - normal code 
+#     print(f"multiplication:-{num1 * num2}")                    
+# elif operation==4:                                              #optimisation - which require less space and functioning fast
+#     print(f"division:-{num1 / num2}")
+# else :
+#     print("invalid")
+
+
 
