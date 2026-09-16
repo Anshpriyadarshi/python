@@ -1,4 +1,4 @@
-sintax of for_loop
+#sintax of for_loop
 for number in range(1,6):
     print("number")
 
@@ -17,7 +17,7 @@ for i in range(length-1,-1,-1):
     sum=sum+name[i]
 print(sum)
 
-#if name==sum:
+if name==sum:
     print("string is palindrome")
 else:
     print("not palindrome") 
