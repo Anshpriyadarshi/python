@@ -20,3 +20,11 @@
 # if number is even print even if not print odd 
 #print even or odd number
 #Stop
+
+#Code 
+num=int(input("Enter the number:~"))
+
+if num % 2 == 0:
+    print("EVEN")
+else :
+    print("ODD")
