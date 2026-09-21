@@ -94,6 +94,6 @@ if num%7==0:
 else:
     print("none")
 
-# question 8
+
 
 
