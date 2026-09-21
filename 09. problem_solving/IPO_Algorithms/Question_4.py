@@ -8,7 +8,7 @@
 # Otherwise - Not eligible to vote
 
 # OUTPUT
-# Print either eligible to vote or not eligible to vote
+# Print eligible to vote or not eligible to vote
 
 
 # Algorithm
