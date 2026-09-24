@@ -114,7 +114,63 @@ for char in String:
     print(char, end=" ")
 
 # question 23
+string = input("Enter the string:~")
+
+count = 0
+for char in string:
+    count += 1
+    print(char ,"The count is:~", count)
+
+#Question 24 
+string = input("Enter the string:~")
+
+count = 0 
+for i in string:
+    if i == "a":
+        count += 1
+        print(count)
     
+
+#Question 25
+text = input("Enter the string:~")
+
+uppercase = 0
+for ch in text:
+    if ch.isupper():
+        uppercase += 1
+
+print("uppercase:~",uppercase)
+
+#Question 26
+for i in range(3):
+    for j in range(4):
+        print("*",end="")
+    print()
+
+#Question 27
+for i in range(4):
+    for j in range(5):
+        print("*", end="")
+    print()
+
+#Question 28
+for i in range(6):
+    for j in range(i):
+        print("* ",end="")
+    print()
+
+#Question 29
+for i in range(1,6):
+    for j in range(1,i+1):
+        print(j ,end="")
+    print()
+
+#Question 30
+for i in range(1,6):
+    for j in range(1,6):
+        print(j*i,end="\t")
+    print()
+
 
 
 
