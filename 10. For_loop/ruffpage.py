@@ -111,6 +111,6 @@
 #     print("YOU are fail, bhago yaha se")
 
 # Question no.9 of exam
-total=0
-flag=True
+# total=0
+# flag=True
 
