@@ -76,5 +76,87 @@ for i in range(1,6):
         print(2*j-1,end=" ")
     print()
 
-#question 14
+#Question 13 with input
+n = int(input("Enter the Number:~"))
+
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(2*j-1,end=" ")
+    print()
+
+#Question 14
+for i in range(1,6):
+    for j in range(1,i+1):
+        print(2*j,end=" ")
+    print()
+
+#Question 15
+for i in range(1,6):
+    for j in range(1,6):
+        print("*",end=" ")
+    print()
+
+#Question 16
+for i in range(1,6):
+    for j in range(1,6):
+        print(j,end=" ")
+    print()
+
+#Question 17
+num=1
+for i in range(1,4):
+    for j in range(1,4):
+        print(num,end=" ")
+        num+=1
+    print()
+
+#Question 18
+num=1
+for i in range(1,5):
+    for j in range(1,6):
+        print(num,end=" ")
+        num+=1
+    print()
+
+#Question 19
+for i in range(1,4):
+    for j in range(1,4):
+        print(f"{i,j}",end=" ")
+    print()
+
+#Question 20
+for i in range(1,4):
+    for j in range(1,4):
+        print(i,j)
+
+# Question 21
+for i in range(1,11):
+    for j in range(1,11):
+        print(i*j,end="\t")
+    print()
+
+# Question 22
+for i in range(1,6):
+    for j in range(1,i+1):
+        print(i,end=" ")
+    print()
+
+#Question 23
+for i in range(6,1,-1):
+    for j in range(1,i):
+        print(j,end=" ")
+    print()
+
+#Question 24
+for i in range(5,0,-1):
+    for j in range(5,i-1,-1):
+        print(j,end=" ")
+    print()
+
+# Question 25
+for i in range(1,6):
+    for j in range(1,6):
+        print(i,end=" ")
+    print()
+
 
