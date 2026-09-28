@@ -100,3 +100,74 @@ while i <=n:
     i += 1
 print("Even numbers are:~",count)
 
+#Question 16
+n = int(input("Enter n:~ "))
+i = 1
+total = 0
+while i <= n:
+    total += i
+    i += 1
+print("Sum =", total)
+
+#Question 17
+n = int(input("Enter the number:~"))
+i= 1
+total =  0
+while i <=n:
+    if n%2==0:
+        total +=i
+    i+=1
+print("sum of even number:~",total)
+
+#Question 18
+n = int(input("Enter the number:~"))
+i = 1
+total = 0
+while i <= n:
+    if n%1==0:
+        total += i
+    i+=1
+print("sum of odd number:~",total)
+
+# Question 19
+n = int(input("Enter the number:~"))
+i = 1
+while i<=10:
+    print(n,"X", i, "=", n*i)
+    i*=n
+
+# Question 20
+n = int(input("Enter a number:~ "))
+i = 1
+product = 1
+while i <= n:
+    product *= i
+    i += 1
+print("Product:", product)
+
+#Question 21
+n = int(input("Enter the number:~"))
+i = 0
+while i <= n:
+    i +=1
+    print(i-1)
+
+#Question 22
+n = int(input("Enter the number:~"))
+i = 0
+while i <= n:
+    i += 1
+    print(i-1,end=" ")
+
+# Question 23
+word = input("Enter the word:~")
+count = 0
+i=0
+while i < len(word):
+    count+=1
+    i+= 1
+print(count)
+
+
+
+
