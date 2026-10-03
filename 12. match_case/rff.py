@@ -1,13 +1,14 @@
 # Match-case basic syntax.
+value = 2
 match value:
-    case pattern1:
-        #code
-    case pattern2:
-        #code
-    case pattern3:
-        #code
+    case 1:
+        print("pattern1")
+    case 2:
+        print("pattern2")
+    case 3:
+        print("pattern3")
     case _:
-        #default code
+        print("default code")
 
 # Question 1
 day = 8
