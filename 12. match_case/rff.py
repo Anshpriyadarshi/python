@@ -1,41 +1,64 @@
-# # Match-case basic syntax.
-# match value:
-#     case pattern1:
-#         #code
-#     case pattern2:
-#         #code
-#     case pattern3:
-#         #code
-#     case _:
-#         #default code
+# Match-case basic syntax.
+match value:
+    case pattern1:
+        #code
+    case pattern2:
+        #code
+    case pattern3:
+        #code
+    case _:
+        #default code
 
-# Question 1
-# day = 8
-# match day:
-#     case 1:
-#         print("Monday")
-#     case 2:
-#         print("Tuesday")
-#     case 3:
-#         print("Wednesday")
-#     case _:
-#         print("Invalid Day")
+Question 1
+day = 8
+match day:
+    case 1:
+        print("Monday")
+    case 2:
+        print("Tuesday")
+    case 3:
+        print("Wednesday")
+    case _:
+        print("Invalid Day")
 
-# # Question 2
-# n1=int(input("Enter number 1:~"))
-# n2=int(input("Enter number 2:~"))
-# choice = int(input("Enter your choice (1-4):~"))
-# match choice:
-#     case 1:
-#         print("Add:~",n1+n2)
-#     case 2:
-#         print("Subtract:~",n1-n2)
-#     case 3:
-#         print("Multiply:~",n1*n2)
-#     case 4:
-#         print("Divide:~",n1/n2)
-#     case _:
-#         print("Invalid Choice")
+# Question 2
+n1=int(input("Enter number 1:~"))
+n2=int(input("Enter number 2:~"))
+choice = int(input("Enter your choice (1-4):~"))
+match choice:
+    case 1:
+        print("Add:~",n1+n2)
+    case 2:
+        print("Subtract:~",n1-n2)
+    case 3:
+        print("Multiply:~",n1*n2)
+    case 4:
+        print("Divide:~",n1/n2)
+    case _:
+        print("Invalid Choice")
 
+#    or
+n=int(input("Enter the day:~"))
+match n:
+    case 1|2|3|4|5:
+        print("weekdays")
+    case 6|7:
+        print("weekend")
+    case _:
+        print("invalid day")
+
+#       marks
+marks = int(input("Enter the marks:~"))
+match marks:
+    case x if x >= 90:
+        print("A")
+    case x if x >= 75:
+        print("B")
+    case x if x >= 60:
+        print("C")
+    case x if x >= 40:
+        print("D")
+    case _:
+        print("Fail")
 
 
