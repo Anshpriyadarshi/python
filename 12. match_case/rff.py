@@ -61,4 +61,33 @@ match marks:
     case _:
         print("Fail")
 
+#Question bank account
+match account:
+    case "saving":
+        print("Saving Account")
 
+        choice = input("Enter 1 for Deposit or 2 for Withdraw: ")
+
+        match choice:
+            case "1":
+                print("Money Deposited")
+            case "2":
+                print("Money Withdrawn")
+            case _:
+                print("Invalid choice")
+
+    case "current":
+        print("Current Account")
+
+        choice = input("Enter 1 for Deposit or 2 for Withdraw: ")
+
+        match choice:
+            case "1":
+                print("money deposited")
+            case "2":
+                print("money withdraw")
+            case _:
+                print("Invalid choice")
+
+    case _:
+        print("please choose a valiid account details")
