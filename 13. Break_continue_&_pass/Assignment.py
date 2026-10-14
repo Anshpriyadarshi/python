@@ -709,8 +709,13 @@ else:
 # Temporarily leave a conditional block empty without causing a syntax error.
 
 
-# def future_function():
-#     pass
+def future_function():
+    pass
 
-# if x > 0:
-#     pass
+if x > 0:
+    pass 
+
+
+
+
+
