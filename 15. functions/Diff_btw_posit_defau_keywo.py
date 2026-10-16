@@ -24,5 +24,8 @@ greet("Bob")  # age defaults to 25
 # - Example:
 def greet(name, age):
     print(f"Hello, my name is {name} and I am {age} years old.")
-    
+
 greet(age=30, name="Charlie")  # Order does not matter
+
+
+# positional arguement written after keyword arguement does not work 
