@@ -126,3 +126,88 @@
 
 # introduce(name="Asha", age=21)       # Keyword arguement
 
+# FUNCTION AND RECURSION FULL REVISION ===============================================================================================
+
+# # sum of two numbers 
+# def calculate_sum(a,b):
+#     sum = a + b 
+#     print(sum)
+#     return sum
+
+# calculate_sum(5,10)
+# calculate_sum(20,30)
+    
+
+# #Average of three numbers
+# def avg_num(n1,n2,n3):
+#     sum = n1+n2+n3
+#     avg = sum / 3
+#     print(avg)
+#     return avg
+
+# avg_num(20,30,40)
+
+# # Count the number of the elements of list
+# cities = ["delhi", "pune", "mumbai", "noida"]
+
+# def cities_len(list):
+#     print(len(list))
+
+# cities_len(cities)
+
+# # program to write all the list elements in a single line 
+
+# cities = ["delhi", "pune", "mumbai", "noida"]
+
+# def print_list(list):
+#     for item in list:
+#         print(item , end=" ")
+
+# print_list(cities)
+
+# # prpgram to write factorial of 8 :~ means 1x2x3x4x5x6x7x8
+
+# def factorial(n):
+#     fact = 1 
+#     for i in range(1,n+1):
+#         fact *= i
+#     print(fact)
+
+# factorial(8)
+
+# # write a function to convert USD to INR 
+
+# def converter(usd_val):
+#     inr_val = usd_val * 95
+#     print(usd_val,"$ is converted into INR =",inr_val,"Rs")
+
+# converter(10)
+
+# # function to print even or odd
+
+# def even_odd(n):
+#     if n % 2 == 0:
+#         print("Even")
+#     else:
+#         print("Odd")
+
+# even_odd(7)
+# even_odd(8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
