@@ -194,17 +194,7 @@
 # even_odd(7)
 # even_odd(8)
 
-
-
-
-
-
-
-
-
-
-
-
+# *args = arguments
 
 
 

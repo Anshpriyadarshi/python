@@ -277,7 +277,7 @@
 
 # result = calculate_stats(10,29,38)
 # print(result)
-    
+
 # # Q23
 # def make_sentence(subject,verb,object):
 #     return f"{subject} {verb} {object}"
@@ -285,4 +285,77 @@
 # final = make_sentence(object="The ball",subject="Ansh",verb="kicked")
 # print(final)
 
-# Q24
+# # Q24
+# def apply_discount(price,discount=20):
+#     total_price = price - discount
+#     return total_price
+    
+# result = apply_discount(300)
+# print(result)
+
+# # Q25
+# def calculate_pay(hours,rate=200,bonus=0):
+#     return (hours * rate) + bonus
+
+# result = calculate_pay(24,bonus=30)
+# print(result)
+    
+
+# # Q26
+# def get_coordinates(x=0,y=0):
+#     return x,y 
+
+# default_coordinates = get_coordinates()
+# print(default_coordinates)
+
+# coordinates_x = get_coordinates(x=5)
+# print(coordinates_x)
+
+# coordinates_y = get_coordinates(y=10)
+# print(coordinates_y)
+
+# coordinates_both = get_coordinates(x=3, y=4)
+# print(coordinates_both)  
+
+# # Q27
+# def compare(a, b):
+#     if a > b:
+#         result = "A is greater"
+#         difference = a - b
+#     elif a < b:
+#         result = "B is greater"
+#         difference = b - a
+#     else:
+#         result = "Equal"
+#         difference = 0
+    
+#     return result, difference
+
+# comparison1 = compare(10, 5)
+# comparison2 = compare(3, 7)
+# comparison3 = compare(4, 4)
+
+# print(comparison1) 
+# print(comparison2) 
+# print(comparison3)  
+
+# # Q28
+# def convert_temperature(value, scale="C"):
+#     if scale == "C":
+        
+#         converted_value = (value * 9/5) + 32
+#     elif scale == "F":
+        
+#         converted_value = (value - 32) * 5/9
+#     else:
+#         raise ValueError("Invalid scale. Use 'C' for Celsius or 'F' for Fahrenheit.")
+    
+#     return converted_value
+
+# celsius_to_fahrenheit = convert_temperature(25, "C")  
+# fahrenheit_to_celsius = convert_temperature(77, "F")  
+
+# print(celsius_to_fahrenheit)  
+# print(fahrenheit_to_celsius)   
+
+# Q29
