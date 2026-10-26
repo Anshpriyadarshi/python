@@ -33,4 +33,10 @@ another_function()
 #Example:~
 print(len("Hello"))  # Outputs: 5
 
+"""Summary
+Local:~ Inside a function.
+Enclosing:~ In nested functions.
+Global:~ Throughout a module.
+Built-in:~ Always available."""
+
 
