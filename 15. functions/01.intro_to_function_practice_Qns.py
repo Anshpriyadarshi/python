@@ -15,8 +15,8 @@ def greet():
 greet()
 greet()
 
-output:~Hello
-        hello
+# output:~Hello
+#         hello
 
 # Question 3
 def first():
@@ -29,10 +29,10 @@ second()
 first()
 second()
 
-output:~
-B
-A 
-B
+# output:~
+# B
+# A 
+# B
 
 # Question 4
 def show():
@@ -43,11 +43,11 @@ show()
 print("Two")
 show()
 
-output:~
-One
-Inside
-Two
-Inside
+# output:~
+# One
+# Inside
+# Two
+# Inside
 
 # Question 5
 def outer():
@@ -58,11 +58,11 @@ print("A")
 outer()
 print("B")
 
-output:~
-A
-Start
-Middle
-B
+# output:~
+# A
+# Start
+# Middle
+# B
 
 
 # Question 6
@@ -72,8 +72,8 @@ def task():
 task
 print("Done")
 
-output:~
-Done
+# output:~
+# Done
 
 # Question 7
 def greet():
@@ -83,7 +83,7 @@ Greet()
 
 # no output its an error 
 
-Identify the error, if any.
+# Identify the error, if any.
 
 # Question 8
 def show():
@@ -93,10 +93,10 @@ def show():
 print("C")
 show()
 
-output:~ 
-C 
-A 
-B 
+# output:~ 
+# C 
+# A 
+# B 
 
 # 13. Coding Practice Problems
 # Q1
@@ -240,10 +240,10 @@ print("2  | Bob   | 22")
 def print_stars():
     print("*****")
 
-print_stars():
-print_stars():
-print_stars():
-print_stars():
+# print_stars():
+# print_stars():
+# print_stars():
+# print_stars():
 
 #Q16
 def show_welcome():
@@ -347,10 +347,10 @@ def example():
 print("Three")        
 
 # Q28
-f ~ function_f
-DoTask ~ perform_task
-studentdetails ~ student_details
-x1 ~ display_menu
+# f ~ function_f
+# DoTask ~ perform_task
+# studentdetails ~ student_details
+# x1 ~ display_menu
 
 # Q29
 def greet():
