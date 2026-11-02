@@ -36,7 +36,6 @@ print(len("Hello"))  # Outputs: 5
 """Summary
 Local:~ Inside a function.
 Enclosing:~ In nested functions.
-Global:~ Throughout a module.
+Global:~ Throughout a module , or outside a function.
 Built-in:~ Always available."""
-
 
