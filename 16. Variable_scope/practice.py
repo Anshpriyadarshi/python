@@ -1,3 +1,4 @@
+# Question 1
 text = input("Enter the string:~")
 char = {}
 for ch in text:
@@ -8,4 +9,20 @@ for ch in text:
             char[ch] = 1  
 for ch, count in char.items():
     print(f"{ch}{count}", end=' ')  
+
+# Question 2
+i = 0
+while i >= -10:
+    name = "Ansh"
+    i -= 1  
+print(name)
+
+# Question 3
+def show_number():
+    number = 5
+    number = number + 1
+    return number
+
+print(show_number())
+print(show_number())
 
