@@ -26,3 +26,9 @@ def show_number():
 print(show_number())
 print(show_number())
 
+# Question 4
+def outer():
+    def inner():
+        print(list("Hello"))
+    inner()
+outer()

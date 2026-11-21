@@ -33,7 +33,7 @@
 # #Example:~
 # print(len("Hello"))  # Outputs: 5
 
-# """Summary
+# """Summary of LEGB - rule 
 # Local:~ Inside a function.
 # Enclosing:~ In nested functions.
 # Global:~ Throughout a module , or outside a function.
