@@ -39,3 +39,20 @@
 # Global:~ Throughout a module , or outside a function.
 # Built-in:~ Always available."""
 
+# closure = inner function variable can access the outer function variable even if the outer function is finished.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
