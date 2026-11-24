@@ -120,7 +120,7 @@ introduce("Rahul", "Mumbai")
 
 # 4.Keyword Arguments-------------------------------------------------------------------
 
-Example
+# Example
 def introduce(name, age):
     print(name, age)
 
@@ -210,7 +210,7 @@ funct(1,2,3,4,4,5,5,5,)
 # positional <- /   
 # * -> keywords   
 
-Example 
+# Example 
 def divide_add(a,b,/,*,c,d=20):
     return c*d , a/b
 
