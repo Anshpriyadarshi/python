@@ -20,7 +20,6 @@
 # def total(n):
 #     if n == 0:
 #         return 0
-
 #     return n + total(n - 1)
 
 # # OUTPUT:-1
@@ -41,7 +40,6 @@
 # def answer(n):
 #     if n == 0:
 #         return 0
-
 #     n + answer(n - 1)
 
 # print(answer(3))
@@ -77,10 +75,8 @@
 #     if n == 0:
 #         print("Done!")
 #         return
-
 #     print(n)
 #     count_down(n -1)
-
 # count_down(3)
 
 
@@ -116,8 +112,6 @@
 
 # def sum_to(n):
 #     return n * (n + 1) // 2
-
-
 # print(sum_to(5))  
 # print(sum_to(0))  
 
@@ -135,8 +129,36 @@
 #     for i in range(1, n + 1):
 #         result *= i
 #     return result
-
-
 # print(factorial(4))  # 24
 # print(factorial(0))  # 1
+
+# #Question 9
+# # Write digit_sum(n) that returns the sum of the digits of a non-negative integer.
+
+# # Examples:
+
+# # print(digit_sum(583))  # 16
+# # print(digit_sum(7))    # 7
+# # print(digit_sum(0))    # 0
+# # Hint: % 10 gets the last digit; // 10 removes the last digit.
+
+# def digit_sum(n):
+#     total = 0
+#     while n > 0:
+#         total += n % 10
+#         n //= 10
+#     return total
+# print(digit_sum(583)) 
+# print(digit_sum(7))
+# print(digit_sum(0))
+
+# # Question 10 
+# def power(base, exponent):
+#     if exponent == 0:
+#         return 1
+#     return base * power(base, exponent - 1)
+
+# print(power(2, 5))  # 32
+# print(power(9, 0))  # 1
+# print(power(3, 1))  # 3
 
