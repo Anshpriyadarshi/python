@@ -1,4 +1,4 @@
-Lambda Syntax
+# Lambda Syntax
 lambda arguements: expression
 
 #Example :~ 
