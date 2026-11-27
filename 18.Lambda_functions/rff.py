@@ -13,3 +13,5 @@ print(marks(79))
 number = lambda a: "even" if a % 2 == 0 else "odd"
 print(number(15))
 
+
+
