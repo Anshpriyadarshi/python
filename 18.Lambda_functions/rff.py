@@ -13,5 +13,18 @@
 # number = lambda a: "even" if a % 2 == 0 else "odd"
 # print(number(15))
 
+# #Example 4 ~ Sort Words by Length
+# words = ["Ninjahatori","Brahmastra","Nankhatai","idk"]
+# result = sorted(words , key = lambda word:len(word))
+# print(result)
 
+# #Example 5 ~ Sort Words by Length in Descending Order
+# words = ["apple", "kiwi", "banana", "fig"]
+# result = sorted(words , key = lambda word: len(word), reverse=True)
+# print(result)
+
+# #Example 6
+# numbers = [23,15,42,31,18]
+# result = sorted(numbers , key = lambda n: n % 10)
+# print(result)
 
